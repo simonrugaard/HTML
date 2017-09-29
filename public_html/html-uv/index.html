@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta charset="utf-8">
+<title>Animal Table</title>
+<!--et ''embedded'' style område-->		
+<style type="text/css">
+	table {
+		width: 90%;
+		margin: auto;
+		/*overskriver standart borders på en table*/
+		border-collapse: collapse;
+		border: 1px solid #000000;
+	}
+	
+	td{
+		border: 1px solid #000000;
+		padding: 10px;
+	}
+	
+	#container {
+	     width: 80%;
+		margin: 0px auto; 
+		border: 1px solid black;
+	}
+	
+	#main-navigation {
+		height: 10vh;
+		border-bottom: 1px solid black;
+		padding: 10px;
+		line-height: 10vh;
+		}
+	
+</style>
+</head>
+
+<body>
+<div id="container">
+<nav id="main-navigation"> 
+<!--Main navigation-->
+	<a href="#">Home</a>
+	<a href="bear.html">The Bear Page</a>
+	<a href="contact.html">Contact</a>
+	
+</nav>
+<table>
+  <caption>
+  The animal table
+  </caption>
+  <tbody>
+    <tr>
+      <th scope="colgroup" colspan="3">Predatory animals</th>
+    </tr>
+    <tr>
+      <td><Strong>Species</Strong></td>
+      <td><strong>Latin name</strong></td>
+      <td><strong>Image</strong></td>
+    </tr>
+    <tr>
+      <td>Brown Bear</<strong></td>
+      <td><em>Ursus arctos</em></td>
+      <td><figure><img src="images/thumb-brown-bear-20016.jpg" width="140" height="100" alt=""/>
+          <figcaption>Brown bear</figcaption>
+        </figure></td>
+    </tr>
+    <tr>
+      <td>Badger</td>
+      <td><em>Meles meles</em></td>
+      <td><figure><img src="images/thumb-badger-47642.jpg" width="132" height="100" alt=""/>
+          <figcaption>Badger</figcaptio>
+          </figure></td>
+    </tr>
+    <tr>
+      <td>Fox</td>
+      <td><em>Vulpes Vulpes</em></td>
+      <td><figure>
+       <img src="images/thumb-fox-17594.jpg" width="149" height="100" alt=""/>
+<figcaption>Fox</figcaption>
+        </figure></td>
+    </tr>
+    <tr>
+      <td>Sand cat</td>
+      <td><em>Felis margarita</em></td>
+      <td><figure>
+       <img src="images/thumb-sand-cat-132685.jpg" width="149" height="100" alt=""/>
+<figcaption>Sand cat</figcaption>
+        </figure></td>
+    </tr>
+    <tr>
+      <td>Wild cat</td>
+      <td><em>Felis silvestris</em></td>
+      <td><figure>
+       <img src="images/thumb-wild-cat-20503.jpg" width="122" height="100" alt=""/>
+       <figcaption>Wild cat</figcaption>
+        </figure></td>
+    </tr>
+    <tr>
+      <td colspan="3">All pictures from <a href="http://www.naturephoto-cz.com/mammals/predatory-animals.html" target="_blank">http://www.naturephoto-cz.com/mammals/predatory-animals.html</a></td>
+    </tr>
+  </tbody>
+</table>
+<!--slut container-->
+</div>
+</body>
+</html>

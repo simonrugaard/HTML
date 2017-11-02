@@ -1,3 +1,212 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 /* CSS Document */
+
+
+body{
+	font: 15px/1.3 Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding:0px;
+	margin:0px;
+	background-image: url(images/deathvalley2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	left: 0;
+	right: 0;
+	
+}
+
+
+.container{
+	width: 100%;
+	margin: auto;
+	overflow:hidden;
+	
+}
+
+
+
+/*Header 1*/
+header{
+	background-color: #F3F7F9;
+	padding-top: 2px; 
+	min-height: 70px;
+	border-bottom: #630313 3px solid;
+
+	
+}
+
+header a{
+	color: #000000;
+	text-decoration: underline; 
+	text-transform: uppercase;
+	font-size: 18px;	
+	font-weight: lighter;
+}
+
+
+nav a{
+	float: left; 
+	display: inline; 
+	padding: 0 30px 0 30px;
+}
+
+header #branding{
+	float: left;
+	padding-left: 60px;
+	
+}
+
+
+header nav {
+	float:right; 
+	margin-top: 42px;
+
+}
+
+header .current a{
+	color: #630313;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;	
+}
+
+
+
+/*Showcase*/
+
+#showcase img{
+	position: absolute;
+    top: 40%;
+    left: 34.3%;
+}
+
+#showcase h1{
+	text-align: center;
+	margin-top: 400px;
+	color: #FFFFFF
+}
+
+.red {
+	float: right;
+	position: relative;
+	right: 30px;
+	top: 10px;
+	width: 50%;
+	padding: 15px;
+	background: #630313;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px; 	
+}
+
+
+footer{ 
+   color: #630313;
+   position:absolute;
+   bottom:0px;
+   width:100%;
+   height:30px;
+   margin-left: 1070px;
+   font-size: 12px;
+  
+}
+
+.box {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;
+   	   
+}
+
+.first {
+   text-decoration: underline;
+}
+
+.second {
+	text-decoration: underline;
+}
+   
+
+/*projekter*/
+
+.besvarelse {
+	float: right;
+	position: relative;
+	right: 30px;
+	top: 10px;
+	width: 40%;
+	padding: 15px;
+	background: #630313;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.flow {
+	float: left;
+	position: relative;
+	left: 30px;
+	top: 10px;
+	width: 40%;
+	padding: 15px;
+	background: #630313;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.tekst {
+	font-size: 20px;
+	
+}
+
+.opgave {
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.anden {
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+/*kontakt*/
+
+.contact {
+	padding: 50px 500px;
+	font-size: 15px;
+	font-style: Verdana, tahoma, sans-serif;
+}
+
+.text {
+	margin-bottom: 20px; 
+	color: #630313;
+}
+
+input, textarea {
+	padding: 10px; 
+	border: 3px solid #630313; 
+	width: 200px;
+	color: #630313;
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 14px;
+	
+}
+
+
+.send input {
+	width: 100px;
+	height: 40px;
+	background-color: #630313;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
 
